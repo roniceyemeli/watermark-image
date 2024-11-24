@@ -1,0 +1,11 @@
+{
+  "name": "watermark-image",
+  "version": "1.0.0",
+  "description": "exxample watermark image using jimp",
+  "main": "app.js",
+  "author": "firmanjs",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.16.1"
+  }
+}
