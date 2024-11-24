@@ -2,6 +2,7 @@ const Jimp = require("jimp");
 
 const addWatermark = async () => {
   try {
+    Jimp.decoders["image/jpeg"].maxMemoryUsageInMB = 512; //memory management
     const inputImage = "test.png";
     const outputImage = "output.png";
 
